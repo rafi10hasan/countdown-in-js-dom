@@ -4,7 +4,6 @@ const countDown = () =>{
     const myDate = new Date(allInputs[0].value);
     const todaysDate = new Date();
     const totalSeconds = Math.floor( (myDate - todaysDate) / 1000);
-    console.log(totalSeconds)
     if(totalSeconds < 0) {
         allInputs[1].value = 0
         allInputs[2].value = 0
